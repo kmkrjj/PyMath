@@ -43,7 +43,8 @@ class trapezium():
       Ans = f'The area of this shape is {heightTrapezium*AnsOne/2}'
     except ValueError:
       print('an error has occurred, please enter a numeric value')
-    print(Ans)
+    print(Ans + ' square centimeters')
+    input('press Enter to exit...')
 
 class triangle():
   def __init__(self):
@@ -85,7 +86,8 @@ class triangle():
       Ans = f'The area of this shape is {a*b/2}'
     except ValueError:
       print('an error has occurred, please enter a numeric value')
-    print(Ans)
+    print(Ans + ' square centimeters')
+    input('press Enter to exit...')
 
 
 
